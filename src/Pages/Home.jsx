@@ -6,7 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { toast } from 'react-toastify';
 import { Link, Route, Routes } from 'react-router-dom';
 import projects from '../Data/projects.js'
-import ShreyaCV from '../Assets/ShreyaCV.pdf';
+import ShreyaCV from '../assets/ShreyaCV.pdf';
 import coding from '../assets/coding.gif'
 
 
