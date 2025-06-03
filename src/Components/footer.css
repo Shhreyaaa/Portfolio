@@ -1,0 +1,35 @@
+.footer{
+    background-color:black;
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+.navigation{
+    text-decoration: none;
+    color: white;    
+}
+.navigation:hover{
+    text-decoration: none;
+    color: gray;    
+}
+li{
+    margin-top: 10px;
+}
+h4{
+   color: rgb(186, 128, 57); 
+}
+.para{
+    width: 500px;
+}
+@media (max-width: 768px) {
+    .footer{
+        text-align: center;
+    }
+    .para{
+        width: 100%;
+    }
+}
+.icon{
+    margin-right: 5px;
+}
