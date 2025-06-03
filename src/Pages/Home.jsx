@@ -6,8 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { toast } from 'react-toastify';
 import { Link, Route, Routes } from 'react-router-dom';
 import projects from '../Data/projects.js'
-import { Button } from 'react-bootstrap';
-import shreyaCV from '../Assets/shreyaCV.pdf';
+import ShreyaCV from '../Assets/ShreyaCV.pdf';
 import coding from '../assets/coding.gif'
 
 
@@ -151,7 +150,7 @@ function Home({isMenuOpen , screenWidth}) {
         From crafting intuitive user interfaces to architecting complex backend solutions,
         my full-stack skills cover the complete development cycle for modern web applications.
       </p>
-      <a href={shreyaCV} target='_blank'>
+      <a href={ShreyaCV} target='_blank'>
         <button data-aos="zoom-out-left" className='btn resume-button' style={{border:'none',color:'white',fontWeight:'bold'}}>Resume</button>
       </a>
     </div>
