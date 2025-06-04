@@ -1,6 +1,6 @@
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 12px;
   margin: 20px 0;
 }
@@ -8,8 +8,8 @@
 .skills {
   background-color: #fffdfd;
   border-radius: 20px;
-  padding: 8px 12px;
-  font-size: 13px;
+  padding: 7px ;
+  font-size: 12px;
   font-weight: 500;
   color: #333;
   text-align: center;

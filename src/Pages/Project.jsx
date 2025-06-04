@@ -43,7 +43,7 @@ function Project() {
               style={{
                 width: '100%',
                 maxWidth: '550px',
-                height: '300px',
+                height: '290px',
                 borderRadius: '10px',
                 border: '1px solid rgb(220, 220, 220)'
               }}
@@ -57,7 +57,7 @@ function Project() {
                     src={img}
                     onClick={() => setMainImg(img)}
                     style={{
-                      height: '130px',
+                      height: '100px',
                       width: '150px',
                       borderRadius: '10px',
                       cursor: 'pointer',
@@ -81,11 +81,11 @@ function Project() {
               ))}
             </div>
 
-            <div className="d-flex gap-3 mt-5">
-              <a href={project.live} target="_blank" rel="noopener noreferrer" className='btn link-button'>
+            <div className="d-flex gap-4 mt-5">
+              <a href={project.live} target="_blank" rel="noopener noreferrer" className='btn link-button'style={{fontSize:'14px'}}>
                 <i className="fa-solid fa-up-right-from-square"></i> Live Url
               </a>
-              <a href={project.github} target="_blank" rel="noopener noreferrer" className='btn link-button'>
+              <a href={project.github} target="_blank" rel="noopener noreferrer" className='btn link-button' style={{fontSize:'14px'}}>
                 <i className="fa-brands fa-github"></i> Github
               </a>
             </div>
