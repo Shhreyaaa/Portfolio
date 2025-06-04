@@ -27,8 +27,8 @@ function Heading({ isMenuOpen, setIsMenuOpen }) {
             left: '0',
             right: '0',
             zIndex: '1000',
-            padding:'0 15px'
-            
+            padding:'0 15px',
+            fontSize:'15px'
             }} >
 
     <div className='d-flex p-2' style={{justifyContent:'space-between'}} >
@@ -91,15 +91,25 @@ function Heading({ isMenuOpen, setIsMenuOpen }) {
         <h3 style={{paddingTop:'100px',paddingLeft:'40px'}}>Menu</h3>
      
       <ul style={{listStyleType:'none',textAlign:'left'}}>
-        <li style={{padding:'10px'}}> <a className='sidebar-text' href="">Home</a></li>
-        <li style={{padding:'10px'}}> <a className='sidebar-text' href="">Services</a></li>
-        <li style={{padding:'10px'}}> <a className='sidebar-text' href="">Skills</a></li>
-        <li style={{padding:'10px'}}> <a className='sidebar-text' href="">Projects</a></li>
-        <li style={{padding:'10px'}}> <a className='sidebar-text' href="">Experience</a></li>
+        <li className='mx-3'>
+  <HashLink smooth className='sidebar-text' to="/#home">Home</HashLink>
+</li>
+<li className='mx-3'>
+  <HashLink smooth className='sidebar-text' to="/#services">Services</HashLink>
+</li>
+<li className='mx-3'>
+  <HashLink smooth className='sidebar-text' to="/#skills">Skills</HashLink>
+</li>
+<li className='mx-3'>
+  <HashLink smooth className='sidebar-text' to="/#projects">Projects</HashLink>
+</li>
+<li className='mx-3'>
+  <HashLink smooth className='sidebar-text' to="/#experience">Experience</HashLink>
+</li>
       </ul>
 
-      <button className='btn bg-black text-white ' style={{fontWeight:'650',marginLeft:'37px'}}>Hire Me</button>
-
+<HashLink smooth to='/#contact'><button className='btn bg-black text-white ' style={{fontWeight:'650',marginLeft:'37px'}}>Hire Me</button>
+</HashLink>
       <div style={{display:'flex',justifyContent:'space-around',marginTop:'10px',paddingLeft:'35px',width:'120px'}}>
       <i style={{marginTop:'20px',fontSize:'larger'}} className='fa-solid fa-envelope' data-aos="zoom-in"
     data-aos-delay="100"></i><br />

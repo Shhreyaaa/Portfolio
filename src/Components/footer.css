@@ -7,7 +7,8 @@
 }
 .navigation{
     text-decoration: none;
-    color: white;    
+    color: white;  
+    font-size: small;  
 }
 .navigation:hover{
     text-decoration: none;
@@ -21,6 +22,7 @@ h4{
 }
 .para{
     width: 500px;
+    font-size: small;
 }
 @media (max-width: 768px) {
     .footer{

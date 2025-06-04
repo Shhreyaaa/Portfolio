@@ -57,7 +57,7 @@ function AllProject() {
   <img 
     src={project.imageHome} 
     alt="" 
-    style={{ width: '400px', height: '200px', marginTop: '8px', borderRadius: '5px' }}
+    style={{ width: '350px', height: '180px', marginTop: '8px', borderRadius: '5px' }}
   />
 
   {/* Hover Button */}
@@ -75,7 +75,7 @@ function AllProject() {
     </div>
     
   </div>
-  <p className='ps-4' style={{ textAlign: 'left' }}>{project.description}</p>
+  <p className='ps-4 text-muted ' style={{ textAlign: 'left',fontSize:'small' }}>{project.description}</p>
 </div>
 
     

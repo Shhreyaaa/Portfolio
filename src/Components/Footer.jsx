@@ -17,7 +17,7 @@ function Footer({isMenuOpen,screenWidth}) {
     <div className='footer'>
         <div className='row p-5'>
             <div className="col-lg-6">
-            <div className='' style={{fontFamily:'Style Script',fontSize:'35px',fontWeight:'550',marginBottom:'10px'}}>Shreya</div>
+            <div className='' style={{fontFamily:'Style Script',fontSize:'30px',fontWeight:'550',marginBottom:'10px'}}>Shreya</div>
 
             <div className='para'>
             <p data-aos="zoom-in">I am Shreya, a passionate web developer and software engineer with a love for turning ideas into interactive and visually appealing experiences.Explore my work, and lets connect to discuss how we can collaborate and bring your ideas to life.</p>
@@ -43,7 +43,7 @@ function Footer({isMenuOpen,screenWidth}) {
                 </ul>
             </div>
         </div>
-        <div className="text-center py-3" style={{fontSize: '14px' }}>Copyright
+        <div className="text-center pb-3" style={{fontSize: '12px' }}>Copyright
   © {new Date().getFullYear()} Shreya| All rights reserved
 </div>
     </div>

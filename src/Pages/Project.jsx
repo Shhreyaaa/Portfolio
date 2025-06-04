@@ -33,9 +33,9 @@ function Project() {
 
   return (
     <>
-      <div className='container py-5' style={{ marginTop: '150px' }}>
+      <div className='container py-5' style={{ marginTop: '90px' }}>
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-6 ps-5 pe-5">
             <img
               data-aos="zoom-in"
               src={mainImg}
@@ -49,7 +49,7 @@ function Project() {
               }}
             />
 
-            <div className='d-flex flex-wrap justify-content-between mt-4' style={{ width: '95%' }}>
+            <div className='d-flex flex-wrap justify-content-between mt-4 mb-4' style={{ width: '100%' }}>
               {project.image.map((img, index) => (
                 <div   data-aos="zoom-in">
                   <img
@@ -58,11 +58,11 @@ function Project() {
                     onClick={() => setMainImg(img)}
                     style={{
                       height: '130px',
-                      width: '170px',
+                      width: '150px',
                       borderRadius: '10px',
                       cursor: 'pointer',
                       border: '1px solid rgb(220, 220, 220)',
-                      objectFit: 'cover',
+                      
                     }}
                     alt={`Thumbnail ${index + 1}`}
                   />
@@ -70,7 +70,7 @@ function Project() {
               ))}
             </div>
           </div>
-
+          
           <div className="col-lg-6">
             <h3>{project.name}</h3>
             <p className='text-muted'>{project.description}</p>
@@ -92,7 +92,7 @@ function Project() {
           </div>
         </div>
 
-        <h3 style={{ marginTop: '100px' }}>Description</h3>
+        <h3 style={{ marginTop: '50px' }}>Description</h3>
         <p>{project.expandedDescription}</p>
 
         <ul>

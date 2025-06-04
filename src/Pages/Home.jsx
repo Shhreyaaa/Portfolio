@@ -94,7 +94,7 @@ function Home({isMenuOpen , screenWidth}) {
 
   return (
     <>
-    <div className=' container body-distance' >
+    <div className='container body-distance' >
     <div
   className={`main-content ${isMenuOpen ? 'shifted' : ''}`}
   style={{
@@ -117,17 +117,17 @@ function Home({isMenuOpen , screenWidth}) {
           <a style={{color:'black'}} href="https://www.linkedin.com/in/s-hreyaa/" target="_blank"><i style={{marginTop:'20px',fontSize:'larger'}}  class="fa-brands fa-linkedin" data-aos="zoom-in"
     data-aos-delay="500"></i></a>
           </div>
-          <div><img data-aos="zoom-in" src={coding} style={{width:'350px',height:'350px',marginLeft:'80px'}} alt="" /></div>
+          <div><img data-aos="zoom-in" src={coding} style={{width:'300px',height:'300px',marginLeft:'80px',marginTop:'30px'}} alt="" /></div>
         </div>
         
       </div>
       <div className="col-lg-6">
       <p style={{textAlign:'right',fontSize:'35px'}}><i  className="fa-solid fa-quote-right"></i></p>
       <p data-aos="fade-left">Hi There,</p>
-      <h2 data-aos="fade-left">
+      <h3 data-aos="fade-left">
         I'm <span style={{ color: 'rgba(102,187,106,255)' }}>Shreya</span>
-      </h2>
-      <h4 data-aos="fade-left" style={{ color: 'rgba(189,189,189,255)' }}>
+      </h3>
+      <h5 data-aos="fade-left" style={{ color: 'rgba(189,189,189,255)' }}>
         Passionate{' '}
         <span style={{ color: '#1a1a1a' }}>
           <TypeAnimation
@@ -145,7 +145,7 @@ function Home({isMenuOpen , screenWidth}) {
             repeat={Infinity}
           />
         </span>
-      </h4>
+      </h5>
       <p data-aos="zoom-in">
         From crafting intuitive user interfaces to architecting complex backend solutions,
         my full-stack skills cover the complete development cycle for modern web applications.
@@ -185,7 +185,7 @@ function Home({isMenuOpen , screenWidth}) {
         </h2>
       </div>
       <div data-aos="fade-up" className="col-lg-6 text-center text-lg-end">
-        <p className="services-desc">
+        <p className="services-desc" style={{ fontSize: '14px' }}>
           As a developer, I provide various services based on my skills to deliver scalable and flexible solutions.
         </p>
       </div>
@@ -354,7 +354,7 @@ function Home({isMenuOpen , screenWidth}) {
   <img 
     src={project.imageHome} 
     alt="" 
-    style={{ width: '400px', height: '200px', marginTop: '8px', borderRadius: '5px' }}
+    style={{ width: '350px', height: '180px', marginTop: '8px', borderRadius: '5px' }}
   />
 
   {/* Hover Button */}
@@ -372,7 +372,7 @@ function Home({isMenuOpen , screenWidth}) {
     </div>
     
   </div>
-  <p className='ps-4' style={{ textAlign: 'left' }}>{project.description}</p>
+  <p className='ps-4 text-muted' style={{ textAlign: 'left',fontSize:'small' }}>{project.description}</p>
 </div>
 
     
@@ -387,7 +387,7 @@ function Home({isMenuOpen , screenWidth}) {
  <div className='d-flex justify-content-center'>
  <Link className='view-more' to='/allproject' >
   <button className="cta" >
-  <span className="hover-underline-animation"> Show more </span>
+  <span className="hover-underline-animation " style={{fontSize:'small'}}> Show more </span>
   <svg
     id="arrow-horizontal"
     xmlns="http://www.w3.org/2000/svg"
