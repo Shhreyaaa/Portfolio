@@ -25,3 +25,15 @@
 .link-button:hover{
     background-color: #fcfbfb;
 }
+.project-images{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 990px){
+    .project-images{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+}

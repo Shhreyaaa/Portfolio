@@ -35,21 +35,21 @@ function Project() {
     <>
       <div className='container py-5' style={{ marginTop: '90px' }}>
         <div className="row">
-          <div className="col-lg-6 ps-5 pe-5">
+          <div className="col-lg-6 ">
             <img
               data-aos="zoom-in"
               src={mainImg}
               alt="Main project"
               style={{
                 width: '100%',
-                maxWidth: '550px',
-                height: '290px',
+                maxWidth: '500px',
+                height: '250px',
                 borderRadius: '10px',
                 border: '1px solid rgb(220, 220, 220)'
               }}
             />
 
-            <div className='d-flex flex-wrap justify-content-between mt-4 mb-4' style={{ width: '100%' }}>
+            <div className='d-flex flex-wrap justify-content-between mt-4 mb-4 pe-5' style={{ width: '100%' }}>
               {project.image.map((img, index) => (
                 <div   data-aos="zoom-in">
                   <img
@@ -62,6 +62,7 @@ function Project() {
                       borderRadius: '10px',
                       cursor: 'pointer',
                       border: '1px solid rgb(220, 220, 220)',
+                      marginTop:'10px'
                       
                     }}
                     alt={`Thumbnail ${index + 1}`}
@@ -81,7 +82,7 @@ function Project() {
               ))}
             </div>
 
-            <div className="d-flex gap-4 mt-5">
+            <div className="d-flex gap-4 mt-4">
               <a href={project.live} target="_blank" rel="noopener noreferrer" className='btn link-button'style={{fontSize:'14px'}}>
                 <i className="fa-solid fa-up-right-from-square"></i> Live Url
               </a>
