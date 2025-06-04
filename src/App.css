@@ -186,10 +186,7 @@ body {
 
 
 @media (max-width: 990px){
-  .animate{
-    display: none;
 
-  }
   .services{
     display: none;
   }
@@ -388,4 +385,11 @@ body {
 
 .projects:hover .hover-button {
   opacity: 1;
+}
+
+@media (max-width: 990px){
+    .start{
+        margin-top: 150px;
+    }
+
 }

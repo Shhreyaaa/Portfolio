@@ -121,7 +121,7 @@ function Home({isMenuOpen , screenWidth}) {
         </div>
         
       </div>
-      <div className="col-lg-6">
+      <div className="col-lg-6 start">
       <p style={{textAlign:'right',fontSize:'35px'}}><i  className="fa-solid fa-quote-right"></i></p>
       <p data-aos="fade-left">Hi There,</p>
       <h3 data-aos="fade-left">
